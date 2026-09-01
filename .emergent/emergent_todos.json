@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Phase 1: POC validated & working",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 2: Full app (content, board, all pages, gamification) + tested 100%",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: Backend auth (email/password JWT + Emergent Google) + anon->account merge",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: Frontend auth (AuthContext, Login page, Google callback, navbar menu)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: Fix CORS/credentials -> bearer-token auth (verified signup+persistence)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: End-to-end testing (auth + persistence + merge + regression) - PASSED",
+    "status": "completed"
+  }
+]

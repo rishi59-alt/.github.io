@@ -1,0 +1,426 @@
+{
+  "openings": [
+    {
+      "id": "italian-game",
+      "name": "Italian Game",
+      "side": "white",
+      "difficulty": "Beginner",
+      "eco": "C50",
+      "description": "The classic 'Giuoco Piano'. Fast development, quick castling, and a bishop aimed straight at f7.",
+      "recommended_for": "Beginners who like clear, attacking plans",
+      "ideas": ["Develop the bishop to c4 targeting f7", "Castle early and build a strong center with c3 and d4", "Coordinate knights and bishops for a kingside initiative"],
+      "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3", "Nf6", "d3"],
+      "xp_reward": 120
+    },
+    {
+      "id": "ruy-lopez",
+      "name": "Ruy Lopez",
+      "side": "white",
+      "difficulty": "Intermediate",
+      "eco": "C60",
+      "description": "The Spanish Torture. Bb5 pressures the knight defending e5 and sets up long-term positional pressure.",
+      "recommended_for": "Players who enjoy deep strategic battles",
+      "ideas": ["Pin/pressure the c6 knight", "Play c3 and d4 for a big center", "Slowly build up on the kingside"],
+      "moves": ["e4", "e5", "Nf3", "Nc6", "Bb5", "a6", "Ba4", "Nf6", "O-O"],
+      "xp_reward": 140
+    },
+    {
+      "id": "scotch-game",
+      "name": "Scotch Game",
+      "side": "white",
+      "difficulty": "Beginner",
+      "eco": "C45",
+      "description": "Strike the center immediately with d4. Open lines and rapid piece play.",
+      "recommended_for": "Aggressive players who hate slow games",
+      "ideas": ["Open the center early with d4", "Develop quickly with active pieces", "Fight for the initiative"],
+      "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nf6"],
+      "xp_reward": 110
+    },
+    {
+      "id": "queens-gambit",
+      "name": "Queen's Gambit",
+      "side": "white",
+      "difficulty": "Intermediate",
+      "eco": "D06",
+      "description": "Offer the c-pawn to deflect Black's d5 pawn and dominate the center.",
+      "recommended_for": "Positional players who love central control",
+      "ideas": ["Challenge d5 with c4", "Build a strong pawn center", "Develop with Nc3, Bg5 and pressure"],
+      "moves": ["d4", "d5", "c4", "e6", "Nc3", "Nf6", "Bg5"],
+      "xp_reward": 130
+    },
+    {
+      "id": "kings-gambit",
+      "name": "King's Gambit",
+      "side": "white",
+      "difficulty": "Advanced",
+      "eco": "C30",
+      "description": "A romantic, razor-sharp gambit. Sacrifice the f-pawn for a raging attack.",
+      "recommended_for": "Daredevils who want to attack from move one",
+      "ideas": ["Open the f-file for the rook", "Rapid development and king hunt", "Accept the risk for the initiative"],
+      "moves": ["e4", "e5", "f4", "exf4", "Nf3", "g5", "Bc4"],
+      "xp_reward": 160
+    },
+    {
+      "id": "london-system",
+      "name": "London System",
+      "side": "white",
+      "difficulty": "Beginner",
+      "eco": "D02",
+      "description": "A rock-solid setup you can play on autopilot: d4, Bf4, e3, Bd3, Nf3, c3.",
+      "recommended_for": "Beginners who want a reliable system",
+      "ideas": ["Set up the same solid structure vs almost anything", "Bishop to f4 outside the pawn chain", "Aim for a safe kingside and central break"],
+      "moves": ["d4", "d5", "Nf3", "Nf6", "Bf4", "e6", "e3", "Bd6", "Bg3"],
+      "xp_reward": 100
+    },
+    {
+      "id": "english-opening",
+      "name": "English Opening",
+      "side": "white",
+      "difficulty": "Intermediate",
+      "eco": "A10",
+      "description": "Flank strategy with 1.c4. Flexible, transpositional, and hyper-modern.",
+      "recommended_for": "Flexible players who like flank control",
+      "ideas": ["Control d5 from the flank", "Fianchetto the bishop to g2", "Keep options open and transpose"],
+      "moves": ["c4", "e5", "Nc3", "Nf6", "g3", "d5", "cxd5", "Nxd5", "Bg2"],
+      "xp_reward": 130
+    },
+    {
+      "id": "sicilian-defense",
+      "name": "Sicilian Defense",
+      "side": "black",
+      "difficulty": "Intermediate",
+      "eco": "B20",
+      "description": "The most popular and aggressive answer to 1.e4. Black fights for the win from the start.",
+      "recommended_for": "Ambitious Black players who play for a win",
+      "ideas": ["Trade the c-pawn for the d-pawn for an open c-file", "Counterattack on the queenside", "Unbalance the position early"],
+      "moves": ["e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4", "Nf6", "Nc3", "a6"],
+      "xp_reward": 150
+    },
+    {
+      "id": "french-defense",
+      "name": "French Defense",
+      "side": "black",
+      "difficulty": "Intermediate",
+      "eco": "C00",
+      "description": "A solid, strategic defense. Build a pawn chain and break with c5 or f6.",
+      "recommended_for": "Solid players who like clear structures",
+      "ideas": ["Challenge the center with d5", "Break with c5 against the pawn chain", "Solve the light-squared bishop problem"],
+      "moves": ["e4", "e6", "d4", "d5", "Nc3", "Bb4"],
+      "xp_reward": 120
+    },
+    {
+      "id": "caro-kann-defense",
+      "name": "Caro-Kann Defense",
+      "side": "black",
+      "difficulty": "Beginner",
+      "eco": "B10",
+      "description": "Solid and reliable. Support d5 with c6 and enjoy a healthy structure.",
+      "recommended_for": "Beginners who want a safe, sound defense",
+      "ideas": ["Support the d5 break with c6", "Develop the light bishop before e6", "Aim for a solid, resilient structure"],
+      "moves": ["e4", "c6", "d4", "d5", "Nc3", "dxe4", "Nxe4", "Bf5"],
+      "xp_reward": 110
+    },
+    {
+      "id": "scandinavian-defense",
+      "name": "Scandinavian Defense",
+      "side": "black",
+      "difficulty": "Beginner",
+      "eco": "B01",
+      "description": "Hit the center on move one with d5. Simple, direct, and easy to learn.",
+      "recommended_for": "Beginners who want a simple 1.e4 answer",
+      "ideas": ["Challenge e4 immediately with d5", "Recapture and reposition the queen to safety", "Develop naturally with a clear plan"],
+      "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5"],
+      "xp_reward": 100
+    },
+    {
+      "id": "kings-indian-defense",
+      "name": "King's Indian Defense",
+      "side": "black",
+      "difficulty": "Advanced",
+      "eco": "E60",
+      "description": "Let White build a big center, then blow it up with a kingside pawn storm.",
+      "recommended_for": "Attacking players who love kingside storms",
+      "ideas": ["Fianchetto the bishop to g7", "Allow the big center, then strike with e5/f5", "Launch a kingside pawn avalanche"],
+      "moves": ["d4", "Nf6", "c4", "g6", "Nc3", "Bg7", "e4", "d6", "Nf3", "O-O"],
+      "xp_reward": 160
+    },
+    {
+      "id": "queens-gambit-declined",
+      "name": "Queen's Gambit Declined",
+      "side": "black",
+      "difficulty": "Intermediate",
+      "eco": "D30",
+      "description": "Decline the gambit and keep a rock-solid center with e6 supporting d5.",
+      "recommended_for": "Classical players who value soundness",
+      "ideas": ["Keep the strong d5 point", "Develop harmoniously behind the pawns", "Free the position with c5 or e5 later"],
+      "moves": ["d4", "d5", "c4", "e6", "Nc3", "Nf6", "Bg5", "Be7"],
+      "xp_reward": 130
+    },
+    {
+      "id": "nimzo-indian-defense",
+      "name": "Nimzo-Indian Defense",
+      "side": "black",
+      "difficulty": "Advanced",
+      "eco": "E20",
+      "description": "Pin the c3 knight with Bb4 and fight for the center with pieces and structure.",
+      "recommended_for": "Strategic players who like doubling pawns",
+      "ideas": ["Pin the c3 knight with Bb4", "Damage White's pawn structure", "Control e4 with pieces"],
+      "moves": ["d4", "Nf6", "c4", "e6", "Nc3", "Bb4"],
+      "xp_reward": 150
+    }
+  ],
+
+  "lessons": [
+    {
+      "id": "chess-basics",
+      "title": "Chess Basics",
+      "difficulty": "Beginner",
+      "category": "Basics",
+      "est_minutes": 5,
+      "description": "The board, the goal, and how a game is won. Start here.",
+      "xp_reward": 60,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Welcome to Chess. Lock In ♟️", "explanation": "Chess is played on an 8x8 board. White moves first. The goal is to checkmate the enemy king — trap it so it cannot escape capture."},
+        {"type": "info", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "The light square rule", "explanation": "Always set up with a light square in the bottom-right corner. Each player starts with 16 pieces."},
+        {"type": "move", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Make your first move: push the e-pawn two squares (e4).", "expected": ["e4"], "explanation": "1.e4 is one of the best first moves — it grabs the center and opens lines for your bishop and queen. Big Brain Move."}
+      ]
+    },
+    {
+      "id": "how-pieces-move",
+      "title": "How Pieces Move",
+      "difficulty": "Beginner",
+      "category": "Basics",
+      "est_minutes": 8,
+      "description": "Pawns, knights, bishops, rooks, queen and king — learn every move.",
+      "xp_reward": 70,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "The Knight", "explanation": "Knights move in an L-shape: two squares one way, one square perpendicular. They are the only piece that can jump over others."},
+        {"type": "move", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Develop your knight to f3.", "expected": ["Nf3"], "explanation": "Nf3 is a perfect developing move — the knight controls central squares and eyes e5. Clean Move 🔥"},
+        {"type": "info", "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2", "prompt": "Bishops & Rooks", "explanation": "Bishops move diagonally, rooks move in straight lines. The queen combines both. The king moves one square in any direction."}
+      ]
+    },
+    {
+      "id": "opening-principles",
+      "title": "Opening Principles",
+      "difficulty": "Beginner",
+      "category": "Opening",
+      "est_minutes": 6,
+      "description": "The 3 golden rules that win more games than any opening theory.",
+      "xp_reward": 80,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Rule 1: Control the center", "explanation": "Pawns and pieces in the center control more squares and give your army room to breathe."},
+        {"type": "move", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Start with a central pawn move (e4).", "expected": ["e4", "d4"], "explanation": "1.e4 or 1.d4 both fight for the center. That's principle #1 done."},
+        {"type": "info", "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2", "prompt": "Rules 2 & 3", "explanation": "Rule 2: Develop knights and bishops quickly. Rule 3: Castle early to keep your king safe. Don't move the same piece twice in the opening."}
+      ]
+    },
+    {
+      "id": "control-the-center",
+      "title": "Control the Center",
+      "difficulty": "Beginner",
+      "category": "Strategy",
+      "est_minutes": 6,
+      "description": "Why the four central squares decide most games.",
+      "xp_reward": 80,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Why the center?", "explanation": "A knight in the center controls up to 8 squares; in the corner only 2. Central control = more power and mobility."},
+        {"type": "move", "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "prompt": "Grab the center: play e4.", "expected": ["e4"], "explanation": "1.e4 stakes a claim in the center and frees your bishop and queen. Big Brain Move."},
+        {"type": "move", "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2", "prompt": "Support your center by developing: Nf3.", "expected": ["Nf3"], "explanation": "2.Nf3 develops a piece and adds pressure to the center. You Found It."}
+      ]
+    },
+    {
+      "id": "develop-your-pieces",
+      "title": "Develop Your Pieces",
+      "difficulty": "Beginner",
+      "category": "Strategy",
+      "est_minutes": 6,
+      "description": "Get your army out fast — passive pieces lose games.",
+      "xp_reward": 80,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2", "prompt": "Knights before bishops", "explanation": "Generally develop knights first (they have fewer good squares), then bishops, then castle."},
+        {"type": "move", "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2", "prompt": "Develop a knight toward the center (Nf3).", "expected": ["Nf3", "Nc3"], "explanation": "A developing move like Nf3 or Nc3 activates a piece and fights for the center. Time to Grind."}
+      ]
+    },
+    {
+      "id": "king-safety",
+      "title": "King Safety",
+      "difficulty": "Beginner",
+      "category": "Strategy",
+      "est_minutes": 5,
+      "description": "Castle early and tuck your king behind a wall of pawns.",
+      "xp_reward": 90,
+      "steps": [
+        {"type": "info", "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 6 5", "prompt": "Castle to safety", "explanation": "Castling tucks the king into the corner and connects your rooks. Do it early — a king in the center is a target."},
+        {"type": "move", "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 6 5", "prompt": "Castle kingside (O-O).", "expected": ["O-O"], "explanation": "O-O moves the king to g1 and the rook to f1. Your king is safe and your rook is active. GG."}
+      ]
+    },
+    {
+      "id": "tactical-thinking",
+      "title": "Tactical Thinking",
+      "difficulty": "Intermediate",
+      "category": "Tactics",
+      "est_minutes": 8,
+      "description": "Train your eye to spot forcing moves: checks, captures, threats.",
+      "xp_reward": 110,
+      "steps": [
+        {"type": "info", "fen": "6k1/8/8/3q4/4N3/8/8/4K3 w - - 0 1", "prompt": "Always check: Checks, Captures, Threats", "explanation": "Before every move, scan for forcing moves. Forcing moves limit your opponent's replies and often win material."},
+        {"type": "move", "fen": "6k1/8/8/3q4/4N3/8/8/4K3 w - - 0 1", "prompt": "White to move — find the knight fork!", "expected": ["Nf6+"], "explanation": "Nf6+ forks the king and queen. After the king moves, Nxd5 wins the queen. Big Brain Move."}
+      ]
+    },
+    {
+      "id": "forks",
+      "title": "Forks",
+      "difficulty": "Intermediate",
+      "category": "Tactics",
+      "est_minutes": 6,
+      "description": "One piece, two targets. The knight's favorite trick.",
+      "xp_reward": 100,
+      "steps": [
+        {"type": "info", "fen": "6k1/8/8/3q4/4N3/8/8/4K3 w - - 0 1", "prompt": "What is a fork?", "explanation": "A fork attacks two (or more) pieces at once. Knights are the best forkers because their targets can't defend each other."},
+        {"type": "move", "fen": "6k1/8/8/3q4/4N3/8/8/4K3 w - - 0 1", "prompt": "Fork the king and queen.", "expected": ["Nf6+"], "explanation": "Nf6+ hits the king (check) and the queen. The king must move, then you grab the queen. You Found It."}
+      ]
+    },
+    {
+      "id": "pins",
+      "title": "Pins",
+      "difficulty": "Intermediate",
+      "category": "Tactics",
+      "est_minutes": 6,
+      "description": "Freeze a piece by attacking what's behind it.",
+      "xp_reward": 100,
+      "steps": [
+        {"type": "info", "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 3 3", "prompt": "What is a pin?", "explanation": "A pin attacks a piece that shields a more valuable piece behind it. The pinned piece can't move without exposing the one behind."},
+        {"type": "move", "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 3 3", "prompt": "Pin the c6 knight to the king (Bb5).", "expected": ["Bb5"], "explanation": "Bb5 pins the c6 knight against the e8 king — the knight is frozen. This is the heart of the Ruy Lopez."}
+      ]
+    },
+    {
+      "id": "skewers",
+      "title": "Skewers",
+      "difficulty": "Intermediate",
+      "category": "Tactics",
+      "est_minutes": 6,
+      "description": "A pin in reverse — hit the big piece first.",
+      "xp_reward": 100,
+      "steps": [
+        {"type": "info", "fen": "1q1k4/8/8/7R/8/8/8/7K w - - 0 1", "prompt": "What is a skewer?", "explanation": "A skewer attacks a valuable piece, forcing it to move and exposing a piece behind it. The opposite of a pin."},
+        {"type": "move", "fen": "1q1k4/8/8/7R/8/8/8/7K w - - 0 1", "prompt": "Skewer the king to win the queen (Rh8+).", "expected": ["Rh8+"], "explanation": "Rh8+ checks the king; when it steps aside, Rxb8 wins the queen. Clean Move 🔥"}
+      ]
+    },
+    {
+      "id": "discovered-attacks",
+      "title": "Discovered Attacks",
+      "difficulty": "Advanced",
+      "category": "Tactics",
+      "est_minutes": 7,
+      "description": "Move one piece, unleash another. Chess dynamite.",
+      "xp_reward": 130,
+      "steps": [
+        {"type": "info", "fen": "7k/7p/3q4/8/3N4/8/1B6/4K3 w - - 0 1", "prompt": "What is a discovered attack?", "explanation": "Moving one piece uncovers an attack from a piece behind it. When the moving piece also attacks something, it's a double whammy."},
+        {"type": "move", "fen": "7k/7p/3q4/8/3N4/8/1B6/4K3 w - - 0 1", "prompt": "Unleash the bishop with a knight move that also hits the queen!", "expected": ["Nf5+"], "explanation": "Nf5+ discovers check from the b2 bishop AND attacks the d6 queen. The king must respond, then Nxd6 wins the queen."}
+      ]
+    },
+    {
+      "id": "double-attacks",
+      "title": "Double Attacks",
+      "difficulty": "Intermediate",
+      "category": "Tactics",
+      "est_minutes": 6,
+      "description": "Two threats, one move. They can only stop one.",
+      "xp_reward": 110,
+      "steps": [
+        {"type": "info", "fen": "4k3/8/8/8/Q6r/8/8/6K1 w - - 0 1", "prompt": "What is a double attack?", "explanation": "A double attack creates two threats at once. Your opponent can only meet one — the other wins."},
+        {"type": "move", "fen": "4k3/8/8/8/Q6r/8/8/6K1 w - - 0 1", "prompt": "Check the king and hit the rook in one move (Qe4+).", "expected": ["Qe4+"], "explanation": "Qe4+ gives check and attacks the h4 rook. After the king moves, Qxh4 wins the rook. Big Brain Move."}
+      ]
+    },
+    {
+      "id": "checkmate-patterns",
+      "title": "Checkmate Patterns",
+      "difficulty": "Intermediate",
+      "category": "Checkmate",
+      "est_minutes": 8,
+      "description": "Learn the mating nets every player must know.",
+      "xp_reward": 120,
+      "steps": [
+        {"type": "info", "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1", "prompt": "The Back-Rank Mate", "explanation": "A king trapped behind its own pawns is vulnerable to a rook or queen on the back rank. Always make luft (an escape square)!"},
+        {"type": "move", "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1", "prompt": "Deliver the back-rank mate (Ra8#).", "expected": ["Ra8#"], "explanation": "Ra8# — the king is boxed in by its own pawns and can't escape. Checkmate. GG."}
+      ]
+    },
+    {
+      "id": "endgames",
+      "title": "Endgames",
+      "difficulty": "Intermediate",
+      "category": "Endgame",
+      "est_minutes": 7,
+      "description": "Convert your advantage: promotion and basic mates.",
+      "xp_reward": 120,
+      "steps": [
+        {"type": "info", "fen": "8/P7/8/8/8/1k6/8/1K6 w - - 0 1", "prompt": "The power of promotion", "explanation": "In the endgame, pawns become queens. A single passed pawn can decide the game — push it and promote."},
+        {"type": "move", "fen": "8/P7/8/8/8/1k6/8/1K6 w - - 0 1", "prompt": "Promote your pawn to a queen (a8=Q).", "expected": ["a8=Q"], "explanation": "a8=Q turns your humble pawn into a queen. Now the win is easy. Time to Grind."}
+      ]
+    },
+    {
+      "id": "pawn-structures",
+      "title": "Pawn Structures",
+      "difficulty": "Advanced",
+      "category": "Strategy",
+      "est_minutes": 7,
+      "description": "Pawns are the soul of chess — learn to read the structure.",
+      "xp_reward": 120,
+      "steps": [
+        {"type": "info", "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4", "prompt": "Pawn chains", "explanation": "Pawn chains point in a direction — attack the base of the chain. Isolated, doubled, and backward pawns are long-term weaknesses."},
+        {"type": "info", "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4", "prompt": "Play on your side", "explanation": "The side your pawns point toward is the side you attack. Space from a pawn chain tells you where your plan lives."}
+      ]
+    },
+    {
+      "id": "how-to-calculate",
+      "title": "How to Calculate Moves",
+      "difficulty": "Advanced",
+      "category": "Tactics",
+      "est_minutes": 9,
+      "description": "Think ahead without getting lost. Calculate like a machine.",
+      "xp_reward": 140,
+      "steps": [
+        {"type": "info", "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1", "prompt": "Calculate forcing lines first", "explanation": "Look at checks, captures and threats. Calculate the most forcing move to the end before considering quiet options."},
+        {"type": "move", "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1", "prompt": "Calculate the forcing move that ends it (Ra8#).", "expected": ["Ra8#"], "explanation": "The most forcing move — a check that is also mate — ends the game instantly. Always calculate checks first. Checkmate. GG."}
+      ]
+    }
+  ],
+
+  "tactics": [
+    {"id": "t-fork", "theme": "Fork", "difficulty": "Intermediate", "fen": "6k1/8/8/3q4/4N3/8/8/4K3 w - - 0 1", "side_to_move": "white", "solution": ["Nf6+"], "accept": [], "explanation": "Nf6+ forks the king and queen. The king moves, then Nxd5 wins the queen."},
+    {"id": "t-pin", "theme": "Pin", "difficulty": "Intermediate", "fen": "6k1/8/8/6q1/7P/8/8/K5R1 w - - 0 1", "side_to_move": "white", "solution": ["hxg5"], "accept": ["Rxg5"], "explanation": "The queen is pinned to the king by the g1 rook, so it can't run. Grab it with hxg5. Clean Move 🔥"},
+    {"id": "t-skewer", "theme": "Skewer", "difficulty": "Intermediate", "fen": "1q1k4/8/8/7R/8/8/8/7K w - - 0 1", "side_to_move": "white", "solution": ["Rh8+"], "accept": [], "explanation": "Rh8+ skewers the king to the queen. When the king steps aside, Rxb8 wins the queen."},
+    {"id": "t-discovered", "theme": "Discovered Attack", "difficulty": "Advanced", "fen": "7k/7p/3q4/8/3N4/8/1B6/4K3 w - - 0 1", "side_to_move": "white", "solution": ["Nf5+"], "accept": [], "explanation": "Nf5+ discovers check from the bishop and also attacks the queen. After the king moves, Nxd6 wins."},
+    {"id": "t-double", "theme": "Double Attack", "difficulty": "Intermediate", "fen": "4k3/8/8/8/Q6r/8/8/6K1 w - - 0 1", "side_to_move": "white", "solution": ["Qe4+"], "accept": [], "explanation": "Qe4+ attacks the king and the rook simultaneously. The king moves, then Qxh4 wins the rook."},
+    {"id": "t-deflection", "theme": "Deflection", "difficulty": "Advanced", "fen": "6k1/3q1ppp/8/8/8/8/1Q3PPP/6K1 w - - 0 1", "side_to_move": "white", "solution": ["Qb8+"], "accept": [], "explanation": "Qb8+ forces the queen to block on the back rank, where you capture it. Deflect the defender and win the queen."},
+    {"id": "t-decoy", "theme": "Decoy", "difficulty": "Advanced", "fen": "5r1k/6pp/7N/3Q4/8/8/8/6K1 w - - 0 1", "side_to_move": "white", "solution": ["Qg8+"], "accept": [], "explanation": "Qg8+!! decoys the rook: after Rxg8, Nf7# is a smothered mate. The king can't take the queen (the knight guards g8)."},
+    {"id": "t-removing", "theme": "Removing the Defender", "difficulty": "Advanced", "fen": "7k/5p1p/6p1/6N1/8/7Q/8/7K w - - 0 1", "side_to_move": "white", "solution": ["Qxh7#"], "accept": [], "explanation": "Qxh7# removes the king's last shield. The queen is protected by the g5 knight, so it's checkmate. GG."},
+    {"id": "t-zwischenzug", "theme": "Zwischenzug", "difficulty": "Advanced", "fen": "6k1/5p1p/8/3q1p2/4N3/8/8/6K1 w - - 0 1", "side_to_move": "white", "solution": ["Nf6+"], "accept": [], "explanation": "Your knight is attacked, but don't retreat! Nf6+ is the in-between move — it checks the king and forks the queen. After the king moves, Nxd5 wins the queen."},
+    {"id": "t-backrank", "theme": "Back-Rank Mate", "difficulty": "Beginner", "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1", "side_to_move": "white", "solution": ["Ra8#"], "accept": [], "explanation": "Ra8# — the king is trapped behind its own pawns. Checkmate on the back rank. GG."},
+    {"id": "t-smothered", "theme": "Smothered Mate", "difficulty": "Advanced", "fen": "6rk/6pp/8/6N1/8/8/8/7K w - - 0 1", "side_to_move": "white", "solution": ["Nf7#"], "accept": [], "explanation": "Nf7# — the king is smothered by its own rook and pawns and can't escape the knight's check. Checkmate. GG."},
+    {"id": "t-arabian", "theme": "Arabian Mate", "difficulty": "Advanced", "fen": "7k/3R4/5N2/8/8/8/8/6K1 w - - 0 1", "side_to_move": "white", "solution": ["Rh7#"], "accept": [], "explanation": "Rh7# — the knight guards g8 and h7's approach while the rook mates. The classic Arabian mate."}
+  ],
+
+  "levels": {
+    "xp_per_level": 300,
+    "titles": [
+      {"min": 1, "title": "Pawn Pusher"},
+      {"min": 3, "title": "Knight Novice"},
+      {"min": 6, "title": "Bishop Adept"},
+      {"min": 9, "title": "Rook Tactician"},
+      {"min": 12, "title": "Chess Grinder"},
+      {"min": 16, "title": "Queen Commander"},
+      {"min": 21, "title": "Grandmaster"}
+    ]
+  },
+
+  "achievements": [
+    {"id": "first_lesson", "name": "First Steps", "icon": "GraduationCap", "description": "Complete your first lesson", "metric": "lessons_completed", "threshold": 1},
+    {"id": "first_opening", "name": "Book Move", "icon": "BookOpen", "description": "Learn your first opening", "metric": "openings_learned", "threshold": 1},
+    {"id": "first_checkmate", "name": "First Checkmate", "icon": "Crown", "description": "Solve your first tactic", "metric": "tactics_solved", "threshold": 1},
+    {"id": "opening_master", "name": "Opening Master", "icon": "Swords", "description": "Learn 5 openings", "metric": "openings_learned", "threshold": 5},
+    {"id": "tactical_genius", "name": "Tactical Genius", "icon": "Brain", "description": "Solve 10 tactics", "metric": "tactics_solved", "threshold": 10},
+    {"id": "streak_7", "name": "7-Day Streak", "icon": "Flame", "description": "Keep a 7 day streak", "metric": "streak", "threshold": 7},
+    {"id": "endgame_king", "name": "Endgame King", "icon": "Castle", "description": "Complete 8 lessons", "metric": "lessons_completed", "threshold": 8},
+    {"id": "scholar", "name": "Scholar", "icon": "Trophy", "description": "Complete all 16 lessons", "metric": "lessons_completed", "threshold": 16}
+  ]
+}
